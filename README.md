@@ -43,8 +43,6 @@ The notebook and workbook support the following review process:
 
 Each ticket classification is wrapped in an OpenTelemetry span. The span records the ticket ID, prompt version, expected category, predicted category, correctness, and model reasoning. LangSmith receives these traces so individual failures can be inspected alongside the aggregate evaluation results.
 
-See [`docs/opentelemetry_integration_one_pager.md`](docs/opentelemetry_integration_one_pager.md) for implementation details and troubleshooting guidance.
-
 ## Run the Notebook
 
 Create a virtual environment and install the dependencies:
